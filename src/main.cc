@@ -48,11 +48,11 @@ NAN_METHOD(FindPassword) {
   }
 }
 
-void Init(Handle<Object> exports) {
-  Nan::SetMethod(exports, "getPassword", GetPassword);
-  Nan::SetMethod(exports, "addPassword", AddPassword);
-  Nan::SetMethod(exports, "deletePassword", DeletePassword);
-  Nan::SetMethod(exports, "findPassword", FindPassword);
+NAN_MODULE_INIT(Init) {
+  Nan::SetMethod(target, "getPassword", GetPassword);
+  Nan::SetMethod(target, "addPassword", AddPassword);
+  Nan::SetMethod(target, "deletePassword", DeletePassword);
+  Nan::SetMethod(target, "findPassword", FindPassword);
 }
 
 }  // namespace
