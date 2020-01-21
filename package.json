@@ -1,22 +1,18 @@
 {
   "main": "./lib/keytar.js",
-  "name": "keytar",
+  "name": "keytar3",
   "description": "Bindings to native Mac/Linux/Windows password APIs",
   "version": "3.0.2",
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/atom/node-keytar/raw/master/LICENSE.md"
+      "url": "http://github.com/alexeykuzmin/node-keytar/raw/teams/3.0.2/LICENSE.md"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/atom/node-keytar.git"
+    "url": "https://github.com/alexeykuzmin/node-keytar.git"
   },
-  "bugs": {
-    "url": "https://github.com/atom/node-keytar/issues"
-  },
-  "homepage": "http://atom.github.io/node-keytar",
   "keywords": [
     "keychain",
     "password",
