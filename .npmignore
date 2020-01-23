@@ -1,7 +1,10 @@
+.node-version
+.npmignore
+.travis.yml
 /build
+/script/cibuild
 /spec
+
 *.coffee
 *.log
 *~
-.node-version
-.npmignore
